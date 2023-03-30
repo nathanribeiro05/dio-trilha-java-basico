@@ -10,8 +10,8 @@ public class CalculoPreço {
         int porcentagemDistribuidor = scan.nextInt();
         int porcentagemImpostos = scan.nextInt();
 
-        int valorImpostos = (custoFabrica * (porcentagemImpostos/100));
-        int valorDistribuidor = (custoFabrica * (porcentagemDistribuidor/100));
+        int valorImpostos = (custoFabrica * porcentagemImpostos/100);
+        int valorDistribuidor = (custoFabrica * porcentagemDistribuidor/100);
 
         System.out.println("O custo final do carro é: " + (custoFabrica + valorDistribuidor + valorImpostos));
 

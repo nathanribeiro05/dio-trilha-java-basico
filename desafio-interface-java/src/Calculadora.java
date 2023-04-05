@@ -1,6 +1,5 @@
 public class Calculadora implements OperacaoMatematica {
 
-    public static void main (String [] args){}
 
     @Override
     public void soma (double operador1, double operador2){
